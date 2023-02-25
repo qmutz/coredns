@@ -21,7 +21,6 @@ require (
 	github.com/golang/groupcache v0.0.0-20190129154638-5b532d6fd5ef // indirect
 	github.com/golang/protobuf v1.3.1
 	github.com/google/btree v1.0.0 // indirect
-	github.com/google/gofuzz v0.0.0-20170612174753-24818f796faf // indirect
 	github.com/googleapis/gnostic v0.2.0 // indirect
 	github.com/gophercloud/gophercloud v0.0.0-20190307220656-fe1ba5ce12dd // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.0.0 // indirect
@@ -36,8 +35,6 @@ require (
 	github.com/matttproud/golang_protobuf_extensions v1.0.1
 	github.com/mholt/caddy v1.0.0
 	github.com/miekg/dns v1.1.12
-	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
-	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/opentracing-contrib/go-observer v0.0.0-20170622124052-a52f23424492 // indirect
 	github.com/opentracing/opentracing-go v1.0.2
 	github.com/openzipkin/zipkin-go-opentracing v0.3.4
@@ -57,7 +54,6 @@ require (
 	go.uber.org/multierr v1.1.0 // indirect
 	go.uber.org/zap v1.9.1 // indirect
 	golang.org/x/crypto v0.0.0-20190530122614-20be4c3c3ed5 // indirect
-	golang.org/x/net v0.0.0-20190603091049-60506f45cf65 // indirect
 	golang.org/x/oauth2 v0.0.0-20190523182746-aaccbc9213b0 // indirect
 	golang.org/x/sync v0.0.0-20190423024810-112230192c58 // indirect
 	golang.org/x/sys v0.0.0-20190602015325-4c4f7f33c9ed
@@ -69,12 +65,11 @@ require (
 	gopkg.in/DataDog/dd-trace-go.v0 v0.6.1
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	k8s.io/api v0.0.0-20190313235455-40a48860b5ab
-	k8s.io/apimachinery v0.0.0-20190313205120-d7deff9243b1
+	k8s.io/apimachinery v0.15.7
 	k8s.io/client-go v11.0.0+incompatible
 	k8s.io/klog v0.3.2
 	k8s.io/kube-openapi v0.0.0-20190306001800-15615b16d372 // indirect
 	k8s.io/utils v0.0.0-20190529001817-6999998975a7 // indirect
-	sigs.k8s.io/yaml v1.1.0 // indirect
 )
 
 replace github.com/DataDog/dd-trace-go v0.6.1 => github.com/datadog/dd-trace-go v0.6.1
